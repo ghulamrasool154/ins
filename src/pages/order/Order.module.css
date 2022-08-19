@@ -1,0 +1,23 @@
+.order_main_page {
+    padding: 50px 0px;
+}
+
+.order_heading span svg,
+.order_heading p {
+    color: #FF897A !important;
+}
+
+.table_section {
+    padding-top: 30px;
+}
+
+.order_main_page th {
+    font-family: "Satoshi-Bold";
+    font-weight: 700;
+    color: #004B74;
+    font-size: 12px;
+    line-height: 16px;
+    border-bottom: 2px solid #CBE6FF !important;
+
+}
+

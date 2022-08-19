@@ -1,0 +1,40 @@
+.table_row td {
+  font-family: "Satoshi-Regular";
+  font-size: 16px;
+  line-height: 24px;
+  color: #41474d;
+  letter-spacing: 0.5px;
+}
+.clicktoOpen {
+  text-align: end;
+  padding-right: 0px !important;
+  position: relative;
+}
+
+.title__of__image__ordet {
+  position: absolute;
+  right: 60px;
+  top: 48px;
+  font-family: "Satoshi-Bold";
+  font-size: 12px;
+  line-height: 16px;
+  color: #004b74;
+}
+.itemss,
+.reference {
+  padding: 40px 0px !important;
+}
+@media only screen and (max-width: 992px) {
+  .table_row td {
+    font-size: 15px;
+  }
+  .itemss,
+  .reference {
+    padding: 30px 10px !important;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .table_row td {
+    font-size: 12px;
+  }
+}

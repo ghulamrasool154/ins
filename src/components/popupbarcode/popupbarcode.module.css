@@ -1,0 +1,81 @@
+.popup__bar__code {
+  background: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 5555;
+}
+
+.popup__bar__code__setting {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.popup__bar__code__overlay {
+  background: #fffbfc;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12);
+  border-radius: 16px;
+  padding: 50px;
+  max-width: 720px;
+  margin: auto;
+  width: 100%;
+}
+
+.popup__details .popup__title {
+  font-family: "Satoshi-Regular";
+  font-size: 22px;
+  line-height: 28px;
+
+  text-align: center;
+
+  color: #006497;
+}
+
+.popup__details h3 {
+  font-family: "Satoshi-Medium";
+
+  font-size: 16px;
+  line-height: 24px;
+
+  text-align: center;
+  letter-spacing: 0.1px;
+
+  color: #006497;
+}
+
+.popup__details .popup__bar__code__button {
+  text-align: center;
+}
+
+.bar__code__image {
+  max-width: 250px;
+  margin: auto;
+}
+
+.popup__details .popup__bar__code__button {
+  width: 160px;
+  margin: 20px auto;
+}
+.popup__details .popup__bar__code__button button {
+  background: #ffffff;
+  box-shadow: 0px 4px 16px rgb(0 0 0 / 12%), 0px 12px 16px rgb(24 200 255 / 24%);
+  border-radius: 100px;
+  width: 100%;
+  border: none;
+  margin: auto;
+  font-family: "Satoshi-Medium";
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  color: #006497;
+  padding: 15px 0px;
+}
+
+@media screen and (max-width: 720px) {
+  .popup__bar__code__setting {
+    padding: 30px;
+  }
+}

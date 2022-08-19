@@ -1,0 +1,25 @@
+.main_titlebar {
+  display: flex;
+}
+.icon_div {
+  background: #e5f2ff;
+  border-radius: 12px;
+  width: 56px;
+  height: 32px;
+  text-align: center;
+}
+.icon_div svg {
+  color: #5eb2f0;
+  font-size: 20px;
+  margin-top: 4px;
+}
+.para {
+  font-family: "Satoshi-Regular";
+  font-size: 22px;
+  color: #807195;
+  margin-bottom: 0px;
+  margin-left: 30px;
+}
+.para span {
+  margin-right: 10px;
+}

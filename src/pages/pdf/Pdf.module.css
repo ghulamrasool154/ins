@@ -1,0 +1,85 @@
+.pdf__page{
+  height: 100%;
+}
+.pdf__page__title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.pdf__page__title .title___of__pdf {
+  font-family: "Satoshi-Regular";
+  font-size: 22px;
+  line-height: 28px;
+  color: #006497;
+  display: flex;
+  align-items: center;
+}
+.pdf__page__title .backarrow {
+  background: #e5f2ff;
+  border-radius: 12px;
+  width: 56px;
+  height: 32px;
+  text-align: center;
+  margin-right: 30px;
+}
+.pdf__page__title .backarrow svg{
+  color: #5eb2f0;
+  font-size: 20px;
+  margin-top: 4px;
+}
+
+/* .container.pdf__page{
+    /* max-width: 800px !important;
+    background-color: yellow; */
+
+.pdf__wrappr {
+  margin-bottom: 25px;
+}
+.pdf__file__box {
+  background: #ffffff;
+  border: 2px solid #cbe6ff;
+  box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.12);
+  border-radius: 12px;
+  padding: 15px;
+}
+.left__box .pdf__box__title h3 {
+  font-family: "Satoshi-Medium";
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.1px;
+  color: #5eb2f0;
+}
+
+.left__box .pdf__box__discription p {
+  font-family: "Satoshi-Regular";
+  font-size: 15px;
+  line-height: inherit;
+  letter-spacing: 0.4px;
+
+  color: #000000;
+}
+.right__box .pdf__box__button button {
+  font-family: "Satoshi-Medium";
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  border: 2px solid #3f98d5;
+  color: #3f98d5;
+  border-radius: 20px;
+  text-transform: capitalize;
+}
+
+.pdf__file__box .left__box {
+  width: 70%;
+}
+.pdf__file__box .right__box {
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+}
+
+@media screen and (max-width: 425px) {
+  .pdf__file__box .left__box {
+    width: 100%;
+  }
+}

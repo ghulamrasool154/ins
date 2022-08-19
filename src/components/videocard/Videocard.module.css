@@ -1,0 +1,61 @@
+.main_video_card {
+    background: #FFFFFF;
+    border: 1.5px solid #EDDBFF;
+    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.12);
+    border-radius: 12px;
+    padding: 10px;
+    margin-top: 30px;
+
+}
+
+.card_image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.card_detail h5 {
+    font-family: "Satoshi-Medium";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #66587B;
+    margin-top: 10px;
+}
+
+.card_detail p {
+    font-family: "Satoshi-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+}
+
+
+
+
+.open {
+    display: flex;
+    justify-content: end;
+}
+
+.open button {
+
+    font-family: "Satoshi-Medium";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    /* color: #9A8AAF; */
+    margin-bottom: 0px;
+    background: white;
+    color: #9A8AAF;
+    border: 2px solid #EDDBFF;
+    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.12);
+    border-radius: 20px;
+    padding:6px 15px;
+
+
+}
